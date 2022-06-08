@@ -1,0 +1,118 @@
+body, p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Asap', sans-serif;
+  }
+
+.bold {
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+}
+
+body{
+    background-color:#F4F4F4;
+}
+
+
+.hero {
+    background-image: url('assets/hero.svg');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.video {
+    background-image:url('assets/video.svg');
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: auto 100%;
+}
+
+.kriipsud {
+    background-image:url('assets/kriipsud.svg');
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.embed-responsive-item {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.1rem;
+    height: 97%;
+    width: 93%;
+    position:relative;
+    border-radius: 3rem;
+}
+
+.kast {
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+}
+
+.karusell {
+    width: 100%;
+    height: 500px;
+}
+
+.karusell1 {
+    width: 100%;
+    height: 50vh;
+}
+
+.karusell2 {
+    width: 50vh;
+}
+
+.facebook {
+    background-image: url("assets/facebook.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.twitter {
+    background-image: url("assets/twitter.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.instagram {
+    background-image: url("assets/instagram.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.sek2{
+    background-color: #371B58;
+}
+p{
+    font-size: 16pt;
+}
+
+.pilt{
+  display: flex;
+  justify-content: center;
+} 
+
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.hovereffect:hover img {
+
+
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
